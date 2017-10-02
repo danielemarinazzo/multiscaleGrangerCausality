@@ -3,7 +3,7 @@ In the study of complex physical and biological systems represented by multivari
 We extend the very popular measure of Granger causality (GC), a prominent tool for assessing directed lagged interactions between joint processes, to quantify information transfer across multiple time scales. We show that the multiscale processing of a vector autoregressive (AR) process introduces a moving average (MA) component, and describe how to represent the resulting ARMA process using state space (SS) models and to combine the SS model parameters for computing exact GC values at arbitrarily large time scales. We exploit the theoretical formulation to identify peculiar features of multiscale GC in basic AR processes, and demonstrate with numerical simulations the much larger estimation accuracy of the SS approach compared with pure AR modeling of filtered and downsampled data. The improved computational reliability is exploited to disclose meaningful multiscale patterns of information transfer between global temperature and carbon dioxide concentration time series, both in paleoclimate and in recent years. 
 The msGC Matlab toolbox reroduces algorithms, simulations and real data analysis reported in [1].
 
-![alt text](ttps://github.com/danielemarinazzo/multiscaleGrangerCausality/msGCfig.img)
+![alt text](https://github.com/danielemarinazzo/multiscaleGrangerCausality/blob/master/msGCfig.jpg)
 
 
 Main functions
