@@ -31,4 +31,6 @@ Data
 - data_800.mat: climatological time series analyzed in [1] (paleolithic climate data)
 NOTE: the iss_ds and ss2iss functions are taken from the State-Space Granger Causality Matlab Toolbox  - http://users.sussex.ac.uk/~lionelb/downloads/ssgc.zip
 
-[1] L Faes, L Faes, S Stramaglia, G Nollo, D Marinazzo. Multiscale Granger causality. Physical Review E. 2017. https://arxiv.org/abs/1703.08487
+[1] L Faes, L Faes, S Stramaglia, G Nollo, D Marinazzo. Multiscale Granger causality. Physical Review E 96, 042150 (2017). 
+https://doi.org/10.1103/PhysRevE.96.042150
+https://arxiv.org/abs/1703.08487
