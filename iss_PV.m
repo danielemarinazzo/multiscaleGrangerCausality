@@ -37,6 +37,7 @@ for jj=1:M  % set target
             % partial variance of target given its past and past of the source
             jjii=[jj ii];
             [~,tmp,rep] = iss_ss2iss(A,C(jjii,:),KVSQRT*KVSQRT',V(jjii,jjii),K*V(:,jjii));
+            if isempty(tmp), tmp=NaN; end % per evitare che si incastri se la stima è "fallita"
             Sj_ij(jj,ii)=tmp(1,1); Vrep=[Vrep; rep];
             
             % partial variance of target given past of all processes except the source
